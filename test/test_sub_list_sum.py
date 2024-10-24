@@ -1,5 +1,15 @@
 from src.sub_list_sum import sub_list_sum
 
+"""
+The test suite accompanies the solution, however this was not built with 
+a full TDD approach (only for the first three tests).
+
+I researched the textual / plain English description of Kadane's Algorithm 
+and used this to write out a walkthrough of the input example 
+[-2, 1, -3, 4, -1, 2, 1, -5, 4]. I then converted this write out into the 
+remainder of the code solution.
+"""
+
 
 def test_default_behaviour_returns_0_given_only_negative_numbers():
     # Arrange
