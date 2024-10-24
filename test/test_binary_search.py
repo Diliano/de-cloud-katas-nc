@@ -1,5 +1,11 @@
 from src.binary_search import binary_search
 
+"""
+The test suite accompanies the solution, however I did not follow a TDD
+approach for this kata as I wrote out the recursion stack by hand to build
+an understanding
+"""
+
 
 def test_determines_index_of_target():
     # Arrange
