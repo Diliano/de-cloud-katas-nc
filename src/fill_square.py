@@ -11,4 +11,8 @@ def fill_square(square):
                 row.append(None)
             result.append(row)
 
+    if longest_row > len(result):
+        while len(result) != longest_row:
+            result.append([None for _ in range(longest_row)])
+
     return result
