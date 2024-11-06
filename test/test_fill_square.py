@@ -51,3 +51,13 @@ def test_fills_values_and_rows_to_form_a_square_matrix():
     result = fill_square(test_input)
     # Assert
     assert result == expected
+
+
+def test_handles_square_matrix_input():
+    # Arrange
+    test_input = [[1, 2], [1, 2]]
+    expected = [[1, 2], [1, 2]]
+    # Act
+    result = fill_square(test_input)
+    # Assert
+    assert result == expected
